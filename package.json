@@ -1,0 +1,15 @@
+{
+  "name": "omnistudio",
+  "version": "1.3.0",
+  "description": "Local AI workspace for OmniRoute: chat, reasoning, coding, website and app builders, REA reverse engineering (MCP), connectors (MCP servers models can use), video, arena, skills, web search, agent computer, multi-model team, AutoTune and STM. Zero dependencies.",
+  "private": true,
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/run-tests.js"
+  },
+  "license": "MIT"
+}
