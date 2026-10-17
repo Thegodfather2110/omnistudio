@@ -174,10 +174,6 @@ To keep data elsewhere, set the `OMNISTUDIO_DATA` environment variable. To use a
 - Computer: *Preview here* shows an HTML deliverable inside the Files panel. An empty model reply is reported as an error instead of a silent finish.
 - The runs list is cached by file time, so the Computer and Team history stays fast with many runs.
 
-## What was left out on purpose
-
-OmniStudio is inspired by the G0DM0D3 repo, but I did not carry over its jailbreak system prompt, Parseltongue (disguising trigger words so models don't refuse), or ULTRAPLINIAN's refusal-based scoring. AutoTune, STM and the multi-model race were rebuilt as general-purpose tools. Docker, nginx, Cloudflare and Hugging Face telemetry files are not included; you don't need them to run locally.
-
 ## Security notes
 
 - The server listens on `127.0.0.1` only, so other devices can't reach it.
